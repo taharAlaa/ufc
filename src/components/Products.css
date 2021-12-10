@@ -1,0 +1,70 @@
+.arrival{
+    min-height: 100vh;
+}
+
+.arrival .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20PX 0;
+    width: 85%;
+    margin: 0 auto;
+}
+.arrival .box-container .box{
+    flex: 1 1 300PX;
+    border: 1PX solid rgba(0, 0, 0, .3);
+    margin: 10PX 20PX;
+    overflow: hidden;
+    position: relative;
+    border-radius: 16PX;
+   
+
+}
+.arrival .box-container .box .image{
+  
+    height:400PX;
+    width: 200PX;
+    
+   
+}
+.arrival .box-container .box .image img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+.arrival .box-container .box .content h3{
+    font-size: 20PX;
+    color: white;
+    padding: 10PX;
+    box-shadow:  0 8PX 16PX rgba(0, 0, 0, .9);;
+    
+}
+.arrival .box-container .box .content .info{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10PX;
+border-top: 1PX solid rgba(0, 0, 0, .3);
+background-color: white;
+
+}
+.arrival .box-container .box .content .info .price{
+font-size: 25PX;
+color: black;    
+
+    }
+    .arrival .box-container .box .content .info .price span{
+        text-decoration: line-through;
+        font-size: 17PX;
+        color: rgb(19, 106, 206)
+    }
+    .arrival .box-container .box .content .info .stars {
+        margin-left: 70PX;
+        }
+
+    .arrival .box-container .box .content .info .stars i{
+        color:  #333;
+        font-size: 15PX;
+     
+        }

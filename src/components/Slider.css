@@ -1,0 +1,57 @@
+
+.carousel{
+  height: 500PX;
+  background-color: white;
+  position: relative;
+  
+}
+
+.carousel .item{
+ height: 500PX;
+ position: relative;
+
+}
+.carousel .item img{
+ object-fit: fill;
+ height: 100%;
+
+ width: 100%;
+
+}
+
+/*
+.content{
+
+  position: relative;
+  top: 50%;
+  left: 10%;
+
+}
+
+ h3{
+   color: white;
+ } 
+ 
+ p{
+   width: 200PX;
+   color: white;
+ }
+
+
+.btn{
+ height: 4rem;
+ width: 14rem;
+ background-color: var(--main-color);
+ color: var(--white);
+ font-size: 2rem;
+ cursor: pointer;
+
+}
+.btn:hover{
+ background-color: var(--white);
+ color: var(--main-color);
+ letter-spacing: .2rem;
+ transform: scale(1.1);
+
+}
+*/

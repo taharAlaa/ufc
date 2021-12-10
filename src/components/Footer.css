@@ -1,0 +1,74 @@
+:root{
+    --main-color:black;
+    --white :#fff;
+    --gray :#666;
+    --green:rgb(14, 150, 212);
+}
+
+
+.footer{
+    background:var(--main-color);
+    color: white;
+
+
+    
+    }
+    
+.footer .box-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20PX;
+   text-align: center;
+   padding: 0 10PX;
+    }
+    
+    .footer .box-container .box{
+      flex: 2 1 400PX;
+        box-shadow: 0 5PX 10PX rgba(255, 255, 255, 0.2);
+      padding: 5PX 0;
+        }
+        .footer .box-container .box  i{
+            height: 50PX;width: 50PX;   
+          font-size: 50PX;   
+        color: var(--gray)
+            
+    }
+        .footer .box-container .box  i:hover{
+        color:var(--green)        }
+
+       .footer .box-container .box h3{
+           font-size: 40PX;
+           padding: 7PX 0;
+           color:var(--gray)
+              }
+              .footer .box-container .box p{
+                font-size: 20PX;
+                padding: 7PX 0;
+                color: var(--white);
+     
+                   }
+                  .footer .box-container .box a{
+                    display: block;
+                    color: var(--white);
+                    font-size:20PX;
+                    margin: 5PX 0;
+                       }
+                       .footer .box-container .box a:hover{
+                        color: var(--gray);
+                        text-decoration: underline;
+                           }
+.footer .footer-written{
+    font-size: 20PX;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 14PX 0;
+    border-top: 1PX solid rgba(0, 0, 0, .3);
+    color: var(--white);
+    background-color: rgba(0, 0, 0, .3);
+}
+.footer-written span{
+    color: var(--green);
+    font-size: 30PX;
+}
+

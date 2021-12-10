@@ -1,0 +1,71 @@
+:root{
+    --mainColor :rgb(19, 134, 211);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    perspective: none;
+    transition: all .3s;
+
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+position: absolute;
+margin: auto;
+top: 60%;
+left: 50%;
+transform: translate(-50%,-50%);
+box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+padding: 2rem 1rem;
+background-color: aliceblue;
+border-radius: .5rem;
+margin-top: 1rem;
+
+}
+.big-img{
+width: 20rem;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+border-radius: .5rem;
+box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+
+}
+
+
+.info{
+margin-top:2rem
+}
+.info p, .height-and-weight p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.info p span,.height-and-weight p span{
+    font-weight: 100;
+}
+
+
+.link{
+    margin-top: .5rem;
+    border-top: .1rem solid black;
+    border-radius: .5rem;
+}
+
+.link p{
+font-size: 1.3rem;
+color: black;
+}
+
+.link p .wiki{
+font-size: 1.5rem;
+text-decoration: none;
+color: rgb(20, 172, 199);
+
+}

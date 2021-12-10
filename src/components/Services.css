@@ -1,0 +1,99 @@
+.deal{
+    height: 100VH;
+
+}
+h1{
+    font-size: 40PX;
+    margin-top: 30PX;
+    text-shadow:0 10PX 20PX rgba(0, 0, 0, .5);
+}
+
+.deal .box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.deal .box-container .box{
+    flex: 1 1  500PX;
+   height: 300PX;
+    margin: 20PX;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3PX  5PX rgba(0, 0, 0, .3);
+}
+
+.deal .box-container .box img{
+    position: absolute;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+.deal .box-container .box:hover img{
+    transform: scale(1.1);
+}
+
+.deal .box-container .box .content{
+position: absolute;
+top: 55%;left: 30PX;
+transform: rotateY(-50%);
+}
+.deal .box-container .box .content h3{
+font-size: 40PX; 
+color: white;
+text-shadow: 0 0PX 12PX rgba(0, 0, 0, 1);
+}
+.deal .box-container .box .content p{
+    font-size: 20PX; 
+    color: black;
+    }
+    .deal .box-container .box .content .btn{
+        margin: 14PX 0;
+        width: 200PX;
+        border-radius: 16PX;
+        font-size: 20PX;
+        }
+
+/*
+        .deal .box-container .icons-container{
+          padding: 10PX;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          box-shadow: 0 5PX 10PX rgba(0, 0, 0, .3);
+          border-radius: 6PX;
+            }
+            .deal .box-container .icons-container .icons{
+                width:95vw;
+                flex:1 1 400PX;
+                padding: 10PX;
+                margin: 10PX;
+                text-align: center;
+                border: 2PX solid var(--mainColor);
+                border-radius: 500PX;
+                              }
+                      .deal .box-container .icons-container .icons i{
+                        padding: 10PX 0;
+                        font-size: 40PX;      
+                        color: rgb(36, 113, 228);        
+
+                            }
+                            .deal .box-container .icons-container .icons h3{
+                                    color: #333;     
+                                    font-size: 2rem;   
+                                                 }
+                                     .deal .box-container .icons-container .icons h3{
+                                       color: #666;     
+                                                    font-size: 13PX;   
+                                                    padding: 10PX 0;
+                                                                 }
+*/
+
+
+.jquery{
+
+    border: solid 1px black;
+    border-radius: 16PX;}

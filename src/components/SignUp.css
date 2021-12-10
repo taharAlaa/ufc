@@ -1,0 +1,82 @@
+/*login form start*/
+.login-form{
+    height:100vh;
+    width: 100%;
+    z-index: 1005;
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    transition: all .3s;
+}
+
+
+.login-form .box{
+   position: absolute;
+   top: 50%;
+   left: 45%;
+   transform: translate(-50%,-50%);
+}
+.login-form .box form{
+    width: 500PX;
+    height: 350PX;
+    box-shadow: 0 5PX 10PX rgba(0, 0, 0, .9);
+    background-color: white;
+    padding: 20PX;
+    border-radius: 5PX;
+    position: relative;
+}
+.login-form .box form h1{
+  text-align: center;
+  font-size: 30PX;
+  margin-bottom: 10PX;
+  color:rgb(19, 106, 206);
+    box-shadow: 0 5PX 10PX rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
+.login-form .box form div{
+    padding:0rem 20PX;
+    border-radius: .5rem;
+}
+.login-form  .box form  div h3{
+    padding: 0;
+    font-size: 15PX;
+    color: #333;
+}
+.login-form  .box form  div input{
+    
+    border-radius: 5PX;
+    border: 1PX solid rgba(0, 0, 0, 0.8);
+    font-size: 15PX;
+}
+.login-form  .box form  div input:focus{
+    
+    border-radius: 5px;
+    border: 1px solid rgb(19, 106, 206);
+}
+
+.login-form  .box form  div p{
+    
+    font-size: 12px;
+    color: #333;
+}
+.login-form  .box form  div p a{
+    
+    font-size: 12px;
+    color: rgb(19, 106, 206);
+}
+.login-form  .box form  div p a:hover{
+    
+    font-size: 12px;
+    color:#333;
+    border-bottom: 1px solid rgb(19, 106, 206);
+}
+.login-form  .box form  div button{
+   color:  white;;
+   background-color: rgb(19, 106, 206);
+   padding: 8PX 20PX;
+   width: 100%;
+   border-radius: 16PX;
+margin-top: 10PX;}
+
+
+/*login form end*/
